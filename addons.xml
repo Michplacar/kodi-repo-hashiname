@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.univision"
+       name="Univision Anywhere"
+       version="1.0"
+       provider-name="Hashiname">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Univision TV plugin</summary>
+    <description>Plugin to watch Univision Anywhere IPTV. You will need a login credential that can be obtained here http://my.univision.mn/index.php/register</description>
+    <disclaimer>It is a third-party addon that is not affiliated with Univision Anywhere in any way. The provider is not responsible for any issues caused by using this addon.</disclaimer>
+  </extension>
+  <extension point="xbmc.addon.repository" name="Hashiname Add-on Repository">
+      <info>https://raw.githubusercontent.com/hasherdene/kodi-repo-hashiname/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/hasherdene/kodi-repo-hashiname/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/hasherdene/kodi-repo-hashiname/master/datadir</datadir>
+  </extension>
+</addon>
+
+<addon id="repository.hashiname" name="Hashiname Add-on Repository" version="0.2" provider-name="Hashiname">
+    <extension point="xbmc.addon.repository" name="Hashiname Add-on Repository">
+        <info>https://raw.githubusercontent.com/hasherdene/kodi-repo-hashiname/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/hasherdene/kodi-repo-hashiname/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/hasherdene/kodi-repo-hashiname/master/datadir</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Hashiname Add-on Repository</summary>
+        <description>Personal kodi addons</description>
+        <disclaimer>I am not responsible for anything caused by this plugin.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
