@@ -3,7 +3,7 @@ kodi repository
 
 ### Available addons
 
-- Univision Anywhere IPTV
+- [Univision Anywhere IPTV](https://github.com/hasherdene/kodi-addon-univision)
 
 ### Disclaimer
 The repository provider is not responsible for any issues caused by using the addons included in this repository.
